@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Meu Primeiro Programa em Python
-Autor: [Seu Nome]
-Data: [Data de Hoje]
-Descrição: Programa básico para aprender GitHub
-"""
 
 # Importações
 import datetime
@@ -28,13 +22,13 @@ def boas_vindas():
     turma = "[Turma]"
     
     print("2️⃣ Sobre mim:")
-    print(f"   Nome: {nome}")
-    print(f"   Turma: {turma}")
+    print(f"   Nome: "Pedro de Souza Sales")
+    print(f"   Turma:(" 2 ano A")
     print()
 
     # 3. Data e hora atual
     agora = datetime.datetime.now()
-    print("3️⃣ Data e hora atual:")
+    print("12/05/2026 14:14l:")
     print(f"   {agora.strftime('%d/%m/%Y às %H:%M:%S')}\n")
 
 # Função principal
